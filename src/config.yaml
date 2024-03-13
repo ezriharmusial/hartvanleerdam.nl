@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: HartVanLeerdam
+  site: 'https://HartVanLeerdam.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,18 +9,18 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
+    default: HartVanLeerdam
+    template: '%s — HartVanLeerdam'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: HartVanLeerdam
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/default.jpg'
+        width: 1414
+        height: 1414
     type: website
   twitter:
     handle: '@onwidget'
@@ -69,7 +69,7 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'dark:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   tokens:
     default:
