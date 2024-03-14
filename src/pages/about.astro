@@ -7,7 +7,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'About us',
+  title: 'Over Hart van Leerdam',
 };
 ---
 
@@ -15,39 +15,42 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="About us"
+    tagline="Over Hart van Leerdam"
     image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Caos Image',
+      src: '~/assets/images/default.jpg',
+      alt: 'Hart van Leerdam logo',
     }}
   >
     <Fragment slot="title">
-      Elevate your online presence with our <br />
-      <span class="text-accent dark:text-white highlight"> Beautiful Website Templates</span>
+      Welke visie leeft in het<br />
+      <span class="text-accent dark:text-white highlight"> Hart van Leerdam</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Donec efficitur, ipsum quis congue luctus, mauris magna convallis mauris, eu auctor nisi lectus non augue. Donec
-      quis lorem non massa vulputate efficitur ac at turpis. Sed tincidunt ex a nunc convallis, et lobortis nisi tempus.
-      Suspendisse vitae nisi eget tortor luctus maximus sed non lectus.
+      <p>
+        Wij willen graag meedenken om zo weinig mogelijk spullen te laten afstorten bij het grofvuil. Veel meubels belanden bij het afval.
+      </p>
+      <p>
+        Onze dagbesteding  repareert restaureert en knapt meubels op in een nieuw jasje zodat het weer als nieuw de winkel in kan. Ook reparatie van electrische apparaten zoals laptops kunt u terecht bij onze Repair Cafe. Recycling en Upcycling is zeker het gedachte van ons bedrijf. U kunt dagelijks spullen inleveren bij onze locatie of laten ophalen bij u thuis. Wij hebben al jaren ervaring met Huisontruiming & Bedrijfsontruiming. Het bezemschoon opleveren is dan geen probleem.
+      </p>
     </Fragment>
   </Hero>
 
   <!-- Stats Widget ****************** -->
 
   <Stats
-    title="Statistics about us"
+    title="Statistieken uit het hart"
     stats={[
-      { title: 'Offices', amount: '4' },
-      { title: 'Employees', amount: '248' },
-      { title: 'Templates', amount: '12' },
-      { title: 'Awards', amount: '24' },
+      { title: 'Shop-in-shops', amount: '5' },
+      { title: 'Ondernemers', amount: '4' },
+      { title: 'vrijwilligers', amount: '12' },
+      { title: 'm2 winkelruimte', amount: '1500' },
     ]}
   />
 
   <!-- Features3 Widget ************** -->
 
-  <Features3
+  <!-- <Features3
     title="Our templates"
     subtitle="Etiam scelerisque, enim eget vestibulum luctus, nibh mauris blandit nulla, nec vestibulum risus justo ut enim. Praesent lacinia diam et ante imperdiet euismod."
     columns={3}
@@ -72,11 +75,11 @@ const metadata = {
         icon: 'tabler:template',
       },
     ]}
-  />
+  /> -->
 
   <!-- Features3 Widget ************** -->
 
-  <Features3
+  <!-- <Features3
     columns={3}
     isAfterContent={true}
     items={[
@@ -122,10 +125,10 @@ const metadata = {
       alt: 'Colorful Image',
     }}
   />
-
+ -->
   <!-- Steps2 Widget ****************** -->
 
-  <Steps2
+  <!-- <Steps2
     title="Our values"
     subtitle="Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus. Nulla facilisi. Vestibulum malesuada lacus."
     items={[
@@ -145,11 +148,11 @@ const metadata = {
           'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
       },
     ]}
-  />
+  /> -->
 
   <!-- Steps2 Widget ****************** -->
 
-  <Steps2
+  <!-- <Steps2
     title="Achievements"
     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla."
     isReversed={true}
@@ -177,29 +180,25 @@ const metadata = {
       },
     ]}
   />
-
+ -->
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Our locations"
-    tagline="Find us"
-    columns={4}
+    title="Onze locaties"
+    tagline="Vind ons vooralsnog in"
+    columns={3}
     items={[
       {
-        title: 'EE.UU',
-        description: '1234 Lorem Ipsum St, 12345, Miami',
+        title: 'Leerdam',
+        description: 'Techniekweg 22, 4143 HV Leerdam',
       },
       {
-        title: 'Spain',
-        description: '5678 Lorem Ipsum St, 56789, Madrid',
+        title: 'Tegenover',
+        description: 'Houthandel - Van der Leeden',
       },
       {
-        title: 'Australia',
-        description: '9012 Lorem Ipsum St, 90123, Sydney',
-      },
-      {
-        title: 'Brazil',
-        description: '3456 Lorem Ipsum St, 34567, São Paulo',
+        title: 'Ingang',
+        description: 'Opslagbox',
       },
     ]}
   />
@@ -207,20 +206,20 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Technical Support"
-    tagline="Contact us"
+    title="Contactmogelijkheden"
+    tagline="Hoe kun je contact opnemen."
     columns={2}
     items={[
       {
-        title: 'Chat with us',
+        title: 'Chat met ons',
         description:
-          'Integer luctus laoreet libero, auctor varius purus rutrum sit amet. Ut nec molestie nisi, quis eleifend mi.',
+          'Wij zijn altijd bereikbaar op whatsapp, het kan even duren voor je antwoord krijgt. We antwoorden binnen een dag.',
         icon: 'tabler:messages',
       },
       {
-        title: 'Call us',
+        title: 'Bel ons',
         description:
-          'Mauris faucibus finibus orci, in posuere elit viverra non. In hac habitasse platea dictumst. Cras lobortis metus a hendrerit congue.',
+          'Als je direct contact met ons zoekt of voor spoedgevallen. Want de beller is sneller.',
         icon: 'tabler:headset',
       },
     ]}

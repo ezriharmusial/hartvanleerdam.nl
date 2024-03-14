@@ -7,13 +7,13 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+// import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+// import FAQs from '~/components/widgets/FAQs.astro';
+// import Stats from '~/components/widgets/Stats.astro';
+// import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Hart van Leerdam heet u Welkom.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,28 +25,25 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Contact',
+        href: '/contact',
         target: '_blank',
         icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Meer weten', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero-image.jpg', alt: 'Het Hart van Leerdam pand' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      <span class="text-accent dark:text-white highlight">Hart van Leerdam</span> heet u<span class="hidden xl:inline"> van harte</span> Welkom!
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        <span class="font-semibold">Zaterdag 30 Maart is onze officiële opening </span> van de Kringloop & Conceptstore. Tot die tijd zijn onze deuren geopend als loodsverkoop en worden dagelijks nieuwe spullen aangevoerd om lekker te gaan snuffelen.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages
-      & Blogs.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">
+      Je kan dan ook dagelijks spullen aanleveren bij onze Kringloop.</span> Wij nemen alles aan mits het niet kapot of niet werkend is. Onze dagbesteding zal zich bezighouden met reparatie van electra en het restylen van meubels
     </Fragment>
   </Hero>
 
@@ -56,7 +53,7 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
+  <!-- <Features
     id="features"
     tagline="Features"
     title="What you get with AstroWind"
@@ -100,7 +97,7 @@ const metadata = {
       },
     ]}
   />
-
+ -->
   <!-- Content Widget **************** -->
 
   <Content
@@ -314,17 +311,17 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
+  <!-- <BlogLatestPosts
     title="Find out more content in our Blog"
     information={`The blog is used to display AstroWind documentation.
                         Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
                         Astro is a very interesting technology. Thanks.
                 `}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
-  <FAQs
+  <!-- <FAQs
     title="Frequently Asked Questions"
     subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
     tagline="FAQs"
@@ -361,22 +358,22 @@ const metadata = {
           "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
       },
     ]}
-  />
+  /> -->
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     stats={[
       { title: 'Downloads', amount: '132K' },
       { title: 'Stars', amount: '24.8K' },
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+  <!-- <CallToAction
     actions={[
       {
         variant: 'primary',
@@ -395,5 +392,5 @@ const metadata = {
       Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
       waste more time! :P
     </Fragment>
-  </CallToAction>
+  </CallToAction> -->
 </Layout>
