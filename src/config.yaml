@@ -1,6 +1,6 @@
 site:
   name: HartVanLeerdam
-  site: 'https://HartVanLeerdam.vercel.app'
+  site: 'https://HartVanLeerdamNL.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -11,7 +11,7 @@ metadata:
   title:
     default: HartVanLeerdam
     template: '%s — HartVanLeerdam'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Dagbesteding Hart van Leerdam 1500m2 lekker snuffelen;Antiek,retro,Vintage, witgoed, electra, Modern Concepstore, meerdere winkels in 1  shop in shop."
   robots:
     index: true
     follow: true
@@ -69,7 +69,7 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'dark:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'dark' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   tokens:
     default:
