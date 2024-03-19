@@ -3,5 +3,25 @@ import { SITE } from '~/utils/config';
 ---
 
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
-  {SITE?.name}
+
+  <img src="/hart-van-leerdam-logo-dark.png" alt={SITE?.name + " light"} class="light h-18" />
+  <img src="/hart-van-leerdam-logo-light.png" alt={SITE?.name + " dark"} class="dark h-18" />
 </span>
+
+<style is:global>
+  html:not(.dark) img.dark {
+    display: none;
+  }
+
+  html.dark img.dark {
+    display: block;
+  }
+
+  html:not(.dark) img.light {
+    display: block;
+  }
+
+  html.dark img.light {
+    display: none;
+  }
+</style>
