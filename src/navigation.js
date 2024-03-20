@@ -115,7 +115,12 @@ export const headerData = {
   //     href: '#',
   //   },
   ],
-  actions: [{ text: 'Contact', href: '/contact', target: '_self' }],
+  actions: [
+    { text: 'Contact', href: '/contact', target: '_self' },
+
+    { text: '', ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/hartvanleerdam/' },
+    { text: '', ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61557529342145' },
+  ],
 };
 
 export const footerData = {
