@@ -121,9 +121,10 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Company',
+      title: 'Hart van Leerdam',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Over ons', href: '/about' },
+        { text: 'Contact', href: '/contact' },
     //     { text: 'Blog', href: '#' },
     //     { text: 'Careers', href: '#' },
     //     { text: 'Press', href: '#' },
@@ -138,9 +139,9 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    // { ariaLabel: 'X', icon: 'tabler:brand-x', href: '' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/hartvanleerdam/' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61557529342145' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `

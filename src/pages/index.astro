@@ -27,10 +27,15 @@ const metadata = {
         variant: 'primary',
         text: 'Contact',
         href: '/contact',
-        target: '_blank',
-        icon: 'tabler:download',
+        target: '_self',
+        icon: 'tabler:heart-handshake',
       },
-      { text: 'Meer weten', href: '#features' },
+      {
+        text: 'Meer weten',
+        href: '/about',
+        target: '_self',
+        icon: 'tabler:world-heart',
+      },
     ]}
     image={{ src: '~/assets/images/hero-image.jpg', alt: 'Het Hart van Leerdam pand' }}
   >
@@ -39,11 +44,17 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">Zaterdag 13 en Zondag 14 April is onze officiële opening </span> van 10.00u tot 17.00u in de dagbesteding, Kringloop & Conceptstore HartVanLeerdam. Daarnaast is onze dagbesteding ook toegangkelijk voor vrijwilligers en particulieren in de gemeente Leerdam die ons willen helpen met opbouw tot de Officiele opening. Tot die tijd zijn onze deuren ook geopend als loodsverkoop en kunnen nieuwe spullen worden aangevoerd.</span
-      >
+      <p class="hidden sm:inline">
+        <span class="font-semibold">Zaterdag 13 en Zondag 14 April is onze officiële opening </span> van 10.00u tot 17.00u in de dagbesteding, Kringloop & Conceptstore HartVanLeerdam. Tot die tijd zijn onze deuren ook geopend als loodsverkoop en kunnen nieuwe spullen worden aangevoerd.
+      </p>
+
+      <p>
       <span class="block mb-1 sm:hidden font-bold text-blue-600">
-      Je kan nu dan ook dagelijks spullen aanleveren bij onze Kringloop om lekker te gaan snuffelen.</span> Wij nemen alles aan mits het niet kapot of niet werkend is. Onze dagbesteding zal zich bezighouden met reparatie van electra en het restylen van meubels
+      Je kan nu dan ook dagelijks spullen aanleveren bij onze Kringloop om lekker te gaan snuffelen.</span> Wij nemen alles aan mits het niet kapot of niet werkend is.
+      </p>
+      <p>
+      Daarnaast is onze dagbesteding ook toegangkelijk voor vrijwilligers en particulieren in de gemeente Leerdam die ons willen helpen met opbouw tot de Officiele opening. Onze dagbesteding zal zich bezighouden met reparatie van electra en het restylen van meubels.
+      </p>
     </Fragment>
   </Hero>
 
